@@ -11,6 +11,7 @@ Check suid binary for privelage escalation
 <code>
 find / -user root -perm /4000
 </code>
+
 Check cmd that do not require sudo <for privelage escalation>
 <code>
 sudo -l
